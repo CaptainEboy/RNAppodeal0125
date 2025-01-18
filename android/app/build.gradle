@@ -154,6 +154,10 @@ dependencies {
         exclude group: "com.appodeal.ads.sdk.services", module: "facebook_analytics"
         exclude group: "com.appodeal.ads.sdk.services", module: "firebase"
         exclude group: "com.appodeal.ads.sdk.services", module: "sentry_analytics"
+        exclude group: "com.appodeal.ads.sdk.networks", module: "admob"
+        exclude group: "com.applovin.mediation", module: "google-adapter"
+        exclude group: "com.applovin.mediation", module: "google-ad-manager-adapter"
+  
     }
 
     // The version of react-native is set by the React Native Gradle Plugin
